@@ -43,6 +43,7 @@ for record in obcfile:
     # Pack the data into the message
     # 
     # Message1 contains the depth gauges 
+    # need to manually enter the depth gains
     message1 = struct.pack(obcAfmt, 
             0xf0c1,
 #            int(data[1]),
